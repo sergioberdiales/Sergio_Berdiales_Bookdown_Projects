@@ -10,15 +10,22 @@ output:
 
 #  {-}
 
-El objetivo de este libro de bookdown es simplemente enlazar todos los proyectos que voy publicando en Bookdown.org. Esto es lo que hay ahora mismo: 
+El objetivo de este libro de bookdown es simplemente enlazar todos los proyectos que voy publicando en Bookdown.org. Para consultar otras publicaciones puedes ir directamente a mi blog personal [sergioberdiales.com](http://sergioberdiales.com/). Esto es lo que tengo publicado ahora mismo en Bookdown.org: 
 
-- [TFM KSchool - Gijon Air Pollution](https://bookdown.org/sergioberdiales/tfm-kschool_gijon_air_pollution/)
-- [Calidad Aire Gijón](https://bookdown.org/sergioberdiales/calidad_aire_gijon/)
-- [Game of Thrones data](https://bookdown.org/sergioberdiales/game_of_thrones_data/)
+- Mi trabajo fin de Máster en Data Science en Kschool.com: [TFM KSchool - Gijon Air Pollution](https://bookdown.org/sergioberdiales/tfm-kschool_gijon_air_pollution/).
+- Un proyecto derivado del anterior que intento poco a poco ir desarrollando sobre la calidad del aire en la ciudad de Gijón: [Calidad Aire Gijón](https://bookdown.org/sergioberdiales/calidad_aire_gijon/).
+- Unas pequeñas notas sobre las notas en IMDB de los últimos episodios de la temporada final de Juego de Tronos: [Game of Thrones data](https://bookdown.org/sergioberdiales/game_of_thrones_data/).
+- Aquí hago una recopilación de preguntas que se puede encontrar en una entrevista de trabajo un candidato a una posición de Data Scientist:  [Preguntas_Entrevistas_Data_Science](https://bookdown.org/sergioberdiales/preguntas_entrevistas_data_science/).
+- El 4 de junio de 2019 gané junto a mis compañeros de equipo [Javier Campos](https://www.linkedin.com/in/francisco-javier-campos-peque%C3%B1o-66058348/) y [Manuel Antonio García](https://www.linkedin.com/in/manuel-antonio-g-13a01a7/) un Hackathon de Machine Learning organizado por [Talento Corporativo](https://www.talentocorporativo.com/). En los dos siguientes enlaces puedes consultar como solucionamos los retos del Hackathon y también cómo nos hubiese gustado hacerlo con más tiempo:     
+    - [Reto 1. Sunlab](https://bookdown.org/sergioberdiales/hackathon_talento_reto_1_sunlab/).
+    - [Reto 2. Wind Farm](https://bookdown.org/sergioberdiales/hackathon_talento_reto_2_wind_farm/)
+    
+- [Descenso Internacional del Sella](https://bookdown.org/sergioberdiales/descenso_del_sella/). En este libro voy publicando mis notas sobre el Descenso Internacional del Sella. De momento solo he explorado los tiempos de los ganadores absolutos de la prueba, es decir, del K2 masculino. 
 
+Todo el código y los datos empleados se encuentran en mi cuenta de Github https://github.com/sergioberdiales. 
 
-Todo el código y los datos empleados se encuentran en este repositorio de Github https://github.com/sergioberdiales/Sergio_Berdiales_Bookdown_Projects. 
+Cualquier consulta, queja o sugerencia me la puedes enviar vía twitter [twitter.com/SergioBerdiales](https://twitter.com/SergioBerdiales).  
 
-Cualquier consulta, queja o sugerencia me la puedes enviar vía twitter [twitter.com/SergioBerdiales](https://twitter.com/SergioBerdiales)
+Si me quieres contactar en Linkedin estoy [aquí](https://www.linkedin.com/in/sergioberdiales/).
 
   

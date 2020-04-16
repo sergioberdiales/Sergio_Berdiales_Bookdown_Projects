@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
 <head>
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Bookdown projects</title>
   <meta name="description" content="Bookdown projects" />
-  <meta name="generator" content="bookdown 0.10 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.18 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Bookdown projects" />
   <meta property="og:type" content="book" />
@@ -39,6 +39,9 @@
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
 
 
 
@@ -85,14 +88,22 @@
 </div>
 <div id="section" class="section level1 unnumbered">
 <h1></h1>
-<p>El objetivo de este libro de bookdown es simplemente enlazar todos los proyectos que voy publicando en Bookdown.org. Esto es lo que hay ahora mismo:</p>
+<p>El objetivo de este libro de bookdown es simplemente enlazar todos los proyectos que voy publicando en Bookdown.org. Para consultar otras publicaciones puedes ir directamente a mi blog personal <a href="http://sergioberdiales.com/">sergioberdiales.com</a>. Esto es lo que tengo publicado ahora mismo en Bookdown.org:</p>
 <ul>
-<li><a href="https://bookdown.org/sergioberdiales/tfm-kschool_gijon_air_pollution/">TFM KSchool - Gijon Air Pollution</a></li>
-<li><a href="https://bookdown.org/sergioberdiales/calidad_aire_gijon/">Calidad Aire Gijón</a></li>
-<li><a href="https://bookdown.org/sergioberdiales/game_of_thrones_data/">Game of Thrones data</a></li>
+<li>Mi trabajo fin de Máster en Data Science en Kschool.com: <a href="https://bookdown.org/sergioberdiales/tfm-kschool_gijon_air_pollution/">TFM KSchool - Gijon Air Pollution</a>.</li>
+<li>Un proyecto derivado del anterior que intento poco a poco ir desarrollando sobre la calidad del aire en la ciudad de Gijón: <a href="https://bookdown.org/sergioberdiales/calidad_aire_gijon/">Calidad Aire Gijón</a>.</li>
+<li>Unas pequeñas notas sobre las notas en IMDB de los últimos episodios de la temporada final de Juego de Tronos: <a href="https://bookdown.org/sergioberdiales/game_of_thrones_data/">Game of Thrones data</a>.</li>
+<li>Aquí hago una recopilación de preguntas que se puede encontrar en una entrevista de trabajo un candidato a una posición de Data Scientist: <a href="https://bookdown.org/sergioberdiales/preguntas_entrevistas_data_science/">Preguntas_Entrevistas_Data_Science</a>.</li>
+<li>El 4 de junio de 2019 gané junto a mis compañeros de equipo <a href="https://www.linkedin.com/in/francisco-javier-campos-peque%C3%B1o-66058348/">Javier Campos</a> y <a href="https://www.linkedin.com/in/manuel-antonio-g-13a01a7/">Manuel Antonio García</a> un Hackathon de Machine Learning organizado por <a href="https://www.talentocorporativo.com/">Talento Corporativo</a>. En los dos siguientes enlaces puedes consultar como solucionamos los retos del Hackathon y también cómo nos hubiese gustado hacerlo con más tiempo:
+<ul>
+<li><a href="https://bookdown.org/sergioberdiales/hackathon_talento_reto_1_sunlab/">Reto 1. Sunlab</a>.</li>
+<li><a href="https://bookdown.org/sergioberdiales/hackathon_talento_reto_2_wind_farm/">Reto 2. Wind Farm</a></li>
+</ul></li>
+<li><a href="https://bookdown.org/sergioberdiales/descenso_del_sella/">Descenso Internacional del Sella</a>. En este libro voy publicando mis notas sobre el Descenso Internacional del Sella. De momento solo he explorado los tiempos de los ganadores absolutos de la prueba, es decir, del K2 masculino.</li>
 </ul>
-<p>Todo el código y los datos empleados se encuentran en este repositorio de Github <a href="https://github.com/sergioberdiales/Sergio_Berdiales_Bookdown_Projects" class="uri">https://github.com/sergioberdiales/Sergio_Berdiales_Bookdown_Projects</a>.</p>
-<p>Cualquier consulta, queja o sugerencia me la puedes enviar vía twitter <a href="https://twitter.com/SergioBerdiales">twitter.com/SergioBerdiales</a></p>
+<p>Todo el código y los datos empleados se encuentran en mi cuenta de Github <a href="https://github.com/sergioberdiales" class="uri">https://github.com/sergioberdiales</a>.</p>
+<p>Cualquier consulta, queja o sugerencia me la puedes enviar vía twitter <a href="https://twitter.com/SergioBerdiales">twitter.com/SergioBerdiales</a>.</p>
+<p>Si me quieres contactar en Linkedin estoy <a href="https://www.linkedin.com/in/sergioberdiales/">aquí</a>.</p>
 
 </div>
             </section>
@@ -106,11 +117,13 @@
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
@@ -118,12 +131,11 @@ gitbook.start({
 "github": false,
 "facebook": true,
 "twitter": true,
-"google": false,
 "linkedin": false,
 "weibo": false,
 "instapaper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
 "theme": "white",
@@ -135,6 +147,10 @@ gitbook.start({
 "text": null
 },
 "history": {
+"link": null,
+"text": null
+},
+"view": {
 "link": null,
 "text": null
 },
